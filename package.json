@@ -1,0 +1,37 @@
+{
+  "name": "fwti-xhs-web",
+  "version": "1.0.0",
+  "description": "FWTI 自嘲型恋爱人格测试（恋爱 MBTI 趣味测试）的小红书客户网页版。",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "access:list": "node scripts/manage-access.mjs list",
+    "access:add": "node scripts/manage-access.mjs add-order",
+    "access:remove": "node scripts/manage-access.mjs remove-order",
+    "access:set-admin": "node scripts/manage-access.mjs set-admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "html-to-image": "^1.11.13",
+    "lucide-solid": "^1.8.0",
+    "qrcode": "1.5.4",
+    "solid-js": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/qrcode": "1.5.6",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.16",
+    "vite-plugin-solid": "^2.11.12"
+  }
+}
